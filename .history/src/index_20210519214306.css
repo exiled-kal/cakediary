@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-card {
+  @apply flex flex-col justify-center items-center bg-blue-300 h-screen font-mono py-10;
+}
+
+.center-content {
+  @apply flex flex-col justify-center items-center;
+}
+
+.navbar {
+  @apply p-4 rounded-full  hover:bg-blue-300 hover:text-white transition duration-300 ease-in-out items-center;
+}
+
+.sliderimg {
+  @apply flex mr- space-x-2 md:space-x-8 w-2/5 h-1/5 ;
+}
