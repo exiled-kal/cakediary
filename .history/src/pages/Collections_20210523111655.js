@@ -12,7 +12,7 @@ const Collections = ({title, description, price}) => {
         <h2>{title}</h2>
         <h4>{description}</h4>
         <h3>{price}</h3>
-        <h4>There are made by me</h4>
+        <h4></h4>
       </div>
     </div>
   );
