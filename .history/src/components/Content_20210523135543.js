@@ -10,11 +10,11 @@ import image4 from '../images/cake4.jpg';
 const Content = () => {
   return (
     <div className="bg-blue-300">
-      <AliceCarousel autoPlay autoPlayInterval="3000">
-        <img src={image1} className="sliderimg" />
-        <img src={image2} className="sliderimg" />
-        <img src={image3} className="sliderimg" />
-        <img src={image4} className="sliderimg" />
+      <AliceCarousel className="sliderimg" autoPlay autoPlayInterval="3000">
+        <img src={image1} />
+        <img src={image2} />
+        <img src={image3} />
+        <img src={image4} />
       </AliceCarousel>
       <div className="menu-card">
         <h2 className="antialiased">

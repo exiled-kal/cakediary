@@ -19,5 +19,5 @@
 }
 
 .images {
-  @apply container border-gray-800 md:border-gray-500 cursor-pointer hover:bg-gray-500;
+  @apply border-blue-500 md:border-grey-00 cursor-pointer hover:bg-gray-500;
 }

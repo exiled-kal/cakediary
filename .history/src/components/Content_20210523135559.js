@@ -10,7 +10,7 @@ import image4 from '../images/cake4.jpg';
 const Content = () => {
   return (
     <div className="bg-blue-300">
-      <AliceCarousel autoPlay autoPlayInterval="3000">
+      <AliceCarousel className="sliderimg" autoPlay autoPlayInterval="3000">
         <img src={image1} className="sliderimg" />
         <img src={image2} className="sliderimg" />
         <img src={image3} className="sliderimg" />
