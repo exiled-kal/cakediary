@@ -8,7 +8,7 @@ const NavBar = ({toggle}) => {
     >
       <NavLink
         to="/contact"
-        className="p-4 font-bold hover:text-black transition duration-300 ease-in-out items-center text-lg bg-blue-300 rounded-lg"
+        className="p-4 font-bold hover:text-white transition duration-300 ease-in-out items-center text-lg bg-blue-300 rounded-lg"
       >
         Tibetan Baker
       </NavLink>

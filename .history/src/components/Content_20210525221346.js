@@ -1,5 +1,5 @@
 import ReactPlayer from 'react-player';
-import AliceCarousel from 'react-alice-carousel';
+import {Carousel} from 'react-responsive-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 import image1 from '../images/cake1.jpg';
@@ -9,13 +9,13 @@ import image4 from '../images/cake4.jpg';
 
 const Content = () => {
   return (
-    <div className="bg-blue-300 relative ">
-      <AliceCarousel className="items-center" autoPlay autoPlayInterval="3000">
-        <img src={image1} className="sliderimg" />
+    <div className="bg-blue-300 items-center justify-items-center relative ">
+      <Carousel className="absolute">
+        <div><img src={image1} className="sliderimg" /></div>
         <img src={image2} className="sliderimg" />
         <img src={image3} className="sliderimg" />
         <img src={image4} className="sliderimg" />
-      </AliceCarousel>
+      </Carousel>
       <div className="menu-card">
         <h2 className="antialiased">
           {' '}

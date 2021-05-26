@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom';
 function Colllink() {
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-blue-300">
-      <h3 className=" text-white lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14">
+      <h3 className=" lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14">
         My Bakery Collections
       </h3>
       <Link
         to="/collections"
-        className="py-6 px-10 rounded-full text-3xl text-white transition duration-300 ease-in-out flex items-center hover:text-black animate-bounce"
+        className="py-6 px-10 bg-blue-300 text-black rounded-full text-3xl hover:bg-black text-white transition duration-300 ease-in-out flex items-center animate-bounce"
       >
         For more
         <svg

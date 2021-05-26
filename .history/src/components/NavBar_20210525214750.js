@@ -3,12 +3,12 @@ import {NavLink} from 'react-router-dom';
 const NavBar = ({toggle}) => {
   return (
     <nav
-      className="flex justify-between items-center h-16 text-white relative shadow-sm font-mono bg-black"
+      className=" flex justify-between items-center h-16 text-white relative shadow-sm font-mono"
       role="navigation"
     >
       <NavLink
         to="/contact"
-        className="p-4 font-bold hover:text-black transition duration-300 ease-in-out items-center text-lg bg-blue-300 rounded-lg"
+        className="p-4 font-bold hover:text-white transition duration-300 ease-in-out items-center text-lg bg-blue-300 rounded-lg"
       >
         Tibetan Baker
       </NavLink>

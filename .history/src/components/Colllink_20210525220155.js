@@ -8,7 +8,7 @@ function Colllink() {
       </h3>
       <Link
         to="/collections"
-        className="py-6 px-10 rounded-full text-3xl text-white transition duration-300 ease-in-out flex items-center hover:text-black animate-bounce"
+        className="py-6 px-10 rounded-full text-3xl text-white transition duration-300 ease-in-out flex items-center hover:animate-bounce"
       >
         For more
         <svg
