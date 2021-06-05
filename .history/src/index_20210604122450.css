@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply bg-gradient-to-r from-green-400 to-blue-500;
+}
+
+.menu-card {
+  @apply flex flex-col justify-center items-center  h-screen font-mono py-10;
+}
+
+.center-content {
+  @apply flex flex-col justify-center items-center;
+}
+
+.navbar {
+  @apply p-4 rounded-full  hover:bg-blue-300 hover:text-black transition duration-300 ease-in-out items-center;
+}
+
+.sliderimg {
+  @apply space-x-2 md:space-x-8 w-auto h-auto;
+}
+
+.images {
+  @apply m-10 border-gray-800 md:border-gray-500 cursor-pointer;
+}
+
+.img {
+  @apply cursor-pointer w-min h-full rounded-md;
+}
