@@ -2,7 +2,6 @@ import {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
 import {db} from '../firebase';
-import Cake from './Cake';
 
 const Collections = () => {
   const [cakes, setCakes] = useState([]);
@@ -36,7 +35,9 @@ const Collections = () => {
       <div className="h-full">
         <div className="grid grid-cols-3 gap-4 m-8 relative ">
           {cakes.map(({id, data: {name, photoUrl}}) => (
-            <img key={id} src={photoUrl} className="img" alt="" />
+            <Link to="/cake" component={Cake}>
+              <img src={photoUrl} className="img" alt="" />
+            </Link>
           ))}
         </div>
       </div>

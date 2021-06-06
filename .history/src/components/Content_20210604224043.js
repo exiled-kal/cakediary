@@ -15,6 +15,7 @@ const Content = () => {
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',
           backgroundImage: `url(${image2})`,
+          opa
         }}
       >
         <Carousel

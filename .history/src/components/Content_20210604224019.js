@@ -10,19 +10,15 @@ import image4 from '../images/cake4.jpg';
 const Content = () => {
   return (
     <div className="bg-gradient-to-r from-green-400 to-blue-500">
-      <div
-        style={{
-          backgroundSize: 'cover',
-          backgroundAttachment: 'fixed',
-          backgroundImage: `url(${image2})`,
-        }}
-      >
+      <div>
         <Carousel
           className="w-1/3 items-center m-auto bg-black rounded-lg"
           infiniteLoop
           autoPlay
         >
-          <div>
+          <div
+            
+          >
             <img src={image1} className="sliderimg" />
           </div>
           <div>

@@ -4,7 +4,7 @@ import image1 from '../images/cake1.jpg';
 const Cake = () => {
   return (
     <Card>
-      <CardHeader>{image1}</CardHeader>
+      <CardHeader></CardHeader>
     </Card>
   );
 };

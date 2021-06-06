@@ -1,5 +1,5 @@
 import {Card, CardHeader} from '@material-ui/core';
-import image1 from '../images/cake1.jpg';
+import {image1} from '../images/cake1.jpg';
 
 const Cake = () => {
   return (
