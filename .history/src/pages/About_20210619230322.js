@@ -2,14 +2,13 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import image1 from '../images/cake1.jpg';
-import {motion} from 'framer-motion';
 // import {gsap} from 'gsap';
 // import {textIntro} from '../components/Animate';
 // import {useEffect, useRef} from 'react';
 
 const About = () => {
   return (
-    <motion.div className=" text-white h-screen">
+    <div className=" text-white h-screen">
       <div
         className=" flex justify-center items-center"
         style={{
@@ -62,7 +61,7 @@ const About = () => {
           <FacebookIcon className=" cursor-pointer m-2 rounded-lg bg-blue-400 hover:bg-blue-700 " />
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

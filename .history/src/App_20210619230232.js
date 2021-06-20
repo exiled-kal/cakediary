@@ -10,7 +10,7 @@ import Collections from './pages/Collections';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Cake from './pages/Cake';
-// import {skewGallery} from './components/Animate';
+import {skewGallery} from './components/Animate';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

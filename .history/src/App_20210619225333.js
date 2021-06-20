@@ -10,7 +10,7 @@ import Collections from './pages/Collections';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Cake from './pages/Cake';
-// import {skewGallery} from './components/Animate';
+import {skewGallery} from './components/';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,6 @@ function App() {
       window.removeEventListener('resize', hideMenu);
     };
   });
-  
   return (
     <div className="App">
       <div className="inset-x-0 top-0 left-0 ">
@@ -44,6 +43,17 @@ function App() {
         <Route path="/collections" component={Collections} />
         <Route path="cakes/:id" component={Cake} />
       </Switch>
+    </div>
+  );
+}
+function Gallery() {
+  let skewImage = useRef(null);
+  useEffect(() => {
+    skewGallery(skewImage);
+  }, []);
+  return (
+    <div ref={(el) => (skewImage = el)}>
+      <Collections />
     </div>
   );
 }

@@ -36,7 +36,7 @@ const Collections = ({setSelectedImg}) => {
                 <motion.img
                   key={id}
                   src={photoUrl}
-                  className="img skewElem"
+                  className="img skew"
                   alt="cakes pic"
                   initial={{opacity: 0}}
                   animate={{opacity: 1}}

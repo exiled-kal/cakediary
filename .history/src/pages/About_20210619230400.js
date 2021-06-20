@@ -2,7 +2,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import image1 from '../images/cake1.jpg';
-import {motion} from 'framer-motion';
 // import {gsap} from 'gsap';
 // import {textIntro} from '../components/Animate';
 // import {useEffect, useRef} from 'react';

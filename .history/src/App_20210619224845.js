@@ -1,4 +1,4 @@
-import {useEffect, useRef, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {Route, Switch} from 'react-router';
 import './App.css';
 
@@ -10,7 +10,6 @@ import Collections from './pages/Collections';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Cake from './pages/Cake';
-// import {skewGallery} from './components/Animate';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +29,6 @@ function App() {
       window.removeEventListener('resize', hideMenu);
     };
   });
-  
   return (
     <div className="App">
       <div className="inset-x-0 top-0 left-0 ">
@@ -46,6 +44,19 @@ function App() {
       </Switch>
     </div>
   );
+}
+function Gallery() {
+  let skewImage = useRef(null);
+  useEffect(() => {
+    skewGallery(skewImage)
+
+  }, []);
+  return (
+    <div ref={(el) => (skewImage = el)}>
+      <Image/>
+
+    </div>
+  )
 }
 
 export default App;
