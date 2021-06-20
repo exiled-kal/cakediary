@@ -13,6 +13,7 @@
     "dotenv": "^10.0.0",
     "firebase": "^8.6.1",
     "firebase-tools": "^9.11.0",
+    "framer-motion": "^4.1.17",
     "mdbreact": "^5.0.2",
     "nuka-carousel": "^4.7.8",
     "react": "^17.0.2",
